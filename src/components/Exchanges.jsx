@@ -14,7 +14,7 @@ const Exchanges = () => {
   const exchangesList = data?.data?.exchanges;
 
   if (isFetching) return <Loader />;
-
+ 
   return (
     <>
       <Row>
